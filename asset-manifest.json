@@ -1,0 +1,36 @@
+{
+  "files": {
+    "main.css": "/jagdamba-react/static/css/main.da6229e7.css",
+    "main.js": "/jagdamba-react/static/js/main.2d545d44.js",
+    "static/js/787.1fc41895.chunk.js": "/jagdamba-react/static/js/787.1fc41895.chunk.js",
+    "static/media/jasta-green.png": "/jagdamba-react/static/media/jasta-green.323ed4bafdd1c6fcb4bd.png",
+    "static/media/keta.png": "/jagdamba-react/static/media/keta.9b3b7f86d97203139976.png",
+    "static/media/jasta-dark-blue.png": "/jagdamba-react/static/media/jasta-dark-blue.16a912a11880eb2b4faa.png",
+    "static/media/jasta-light-blue.png": "/jagdamba-react/static/media/jasta-light-blue.0d1f2b3420f76bbe264d.png",
+    "static/media/keti.png": "/jagdamba-react/static/media/keti.3a68fd4e47c1162fc7b4.png",
+    "static/media/jasta-red.png": "/jagdamba-react/static/media/jasta-red.b076ca7dfc918ba13c80.png",
+    "static/media/7-ko-sath.png": "/jagdamba-react/static/media/7-ko-sath.a3e7f0d697587f3004d8.png",
+    "static/media/jasta-silver.png": "/jagdamba-react/static/media/jasta-silver.5f7fd8d65d4c4f7b77cd.png",
+    "static/media/jasta-grey.png": "/jagdamba-react/static/media/jasta-grey.2d05fbe860c8f5144b1e.png",
+    "static/media/jasta-yellow.png": "/jagdamba-react/static/media/jasta-yellow.0d7a416662fd5364e720.png",
+    "static/media/jagdamba-super-shine.png": "/jagdamba-react/static/media/jagdamba-super-shine.dc311133a34eef531ecc.png",
+    "static/media/jagdamba-gyalva.png": "/jagdamba-react/static/media/jagdamba-gyalva.fa81339f5e9b520a08d1.png",
+    "static/media/blueCastle.jpg": "/jagdamba-react/static/media/blueCastle.01247115d755dff94f81.jpg",
+    "static/media/jagdamba-logo.svg": "/jagdamba-react/static/media/jagdamba-logo.b4a4939c35bb69748dc1170a6661f62d.svg",
+    "static/media/6.svg": "/jagdamba-react/static/media/6.19e380a4ddd455ca08a4e5a9e768b55d.svg",
+    "static/media/3.svg": "/jagdamba-react/static/media/3.6e02e75fa3c592250e1e6903fe84dd80.svg",
+    "static/media/1.svg": "/jagdamba-react/static/media/1.b54f1a75ba7e4f77a0dc43bfe9b85862.svg",
+    "static/media/5.svg": "/jagdamba-react/static/media/5.ea92eda116d34da762c6cf4eb21a6ee6.svg",
+    "static/media/2.svg": "/jagdamba-react/static/media/2.76d7215c4c8c5aab1b65d147e67ccc98.svg",
+    "static/media/7.svg": "/jagdamba-react/static/media/7.566b0796faa9f4d288948e1b3bcce196.svg",
+    "static/media/4.svg": "/jagdamba-react/static/media/4.64bd12e0fb67e04e492603c5eb54dee6.svg",
+    "index.html": "/jagdamba-react/index.html",
+    "main.da6229e7.css.map": "/jagdamba-react/static/css/main.da6229e7.css.map",
+    "main.2d545d44.js.map": "/jagdamba-react/static/js/main.2d545d44.js.map",
+    "787.1fc41895.chunk.js.map": "/jagdamba-react/static/js/787.1fc41895.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.da6229e7.css",
+    "static/js/main.2d545d44.js"
+  ]
+}
