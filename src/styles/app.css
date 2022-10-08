@@ -1,0 +1,19 @@
+* {
+	box-sizing: border-box;
+	font-family: 'Open Sans', sans-serif;
+}
+body {
+		margin: 0px 0px 0px 0px;
+		padding: 0px 0px 0px 0px;
+}
+.App {
+	margin: 0px 0px 0px 0px;
+  outline: 2px solid red;
+  /* background-image: url('../images/jagdamba-website.jpg'); */
+  background-color: rgb(229, 229, 229);
+  
+  background-size: contain;
+  opacity: 1;
+  height: 100%;
+  overflow: hidden;
+}

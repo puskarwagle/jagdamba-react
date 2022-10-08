@@ -1,0 +1,59 @@
+.grid-item-4 {
+  display: flex;
+  position: relative;
+  max-width: 100%;
+}
+.grid-item-4 img {
+  position: absolute;
+}
+.SkyBlueHi {  /* skyblue */
+  transform: rotate(-15deg);
+  transition: ease 500ms;
+  margin-left: -15%;
+  margin-top: 8%;
+  z-index: 8;
+}
+.BlueHi {  /* blue */
+  transform: rotate(-20deg);
+  transition: ease 500ms;
+  margin-top: 22%;
+  margin-left: -35%;
+  z-index: 7;
+}
+.GreenHi {  /* green */
+  transform: rotate(14deg);
+  transition: ease 500ms;
+  margin-top: 8%;
+  margin-left: 18%;
+  z-index: 6;
+}
+.GreyHi {  /* grey left */
+  transform: rotate(-30deg);
+  transition: ease 500ms;
+  margin-top: 35%;
+  margin-left: -50%;
+  z-index: 6;
+}
+.SilverHi {  /* Silver Right*/
+  transform: rotate(22deg);
+  transition: ease 500ms;
+  margin-top: 20%;
+  margin-left: 36%;
+  z-index: 5;
+}
+.YellowHi {  /* Yellow Right*/
+  transform: rotate(25deg);
+  transition: ease 500ms;
+  margin-top: 40%;
+  margin-left: 54%;
+  z-index: 4;
+}
+.RedHi {  /* red */
+  z-index: 9 !important;
+  min-width: 100%;
+}
+#jasta {
+  position: absolute;
+  margin-top: 600px;
+  font-size: 4rem;
+}

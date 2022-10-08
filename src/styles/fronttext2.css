@@ -1,0 +1,15 @@
+.FrontText2 {
+outline: 0px dotted green;
+text-align: center;
+color: rgb(51, 51, 51);
+padding: 0rem 7vw 0rem 7vw;
+}
+p {
+font-size: 1.8rem;
+font-weight: 700;
+}
+@media only screen and (max-width: 600px) {
+	.FrontText2 p {
+		font-size: 1rem;
+	}
+}

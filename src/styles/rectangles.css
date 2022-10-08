@@ -1,0 +1,83 @@
+.Rectangles {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  align-items: center;
+  gap: 3rem;
+}
+.top {
+  display: flex;
+  gap: 3rem;
+}
+.bottom {
+  display: flex;
+  gap: 3rem;
+}
+.grid-box {
+  display: flex;
+  flex-direction: column;
+  font-size: 1em;
+  aspect-ratio: 1 / 1.8;
+  width: 16vw;
+  align-items: center;
+  text-align: center;
+  justify-content: space-between;
+}
+.bottom .grid-box {
+  aspect-ratio: 1 / 1.8;
+  width: 16vw;
+}
+#circle {
+  width: 5vw;
+  height: 5vw;
+  line-height: 5vw;
+  border-radius: 50%;
+  font-size: 4.5vw;
+  font-weight: 999;
+  color: #66E8CE;
+  text-align: center;
+  background: #FFFFFF;
+  display: inline;
+  margin-top:-10%;
+}
+.Rectangles p {
+  font-size: 1.3rem;
+  font-weight: 800;
+}
+@media only screen and (max-width: 600px) {
+	.Rectangles p {
+		font-size: 0.8em;
+	}
+}
+.Rectangles img {
+  height: 10vw;
+}
+.Rectangles .One {
+  background-color: rgb(244,174,82);
+}
+.Rectangles .grid-box:hover img {
+  flex-grow: 0.7;
+  flex-shrink: 1;
+  transition: width 1s;
+ }
+ .Rectangles .grid-box:hover p {
+	font-size: 1em;
+ }
+.Rectangles .Two {
+  background-color: rgb(236,27,60);
+}
+.Rectangles .Three {
+  background-color: rgb(140,221,117);
+}
+.Rectangles .Four {
+  background-color: rgb(32,170,241);
+}
+.Rectangles .Five {
+  background-color: rgba(23,239,59,0.684);
+}
+.Rectangles .Six {
+  background-color: rgb(195,24,24);
+}
+.Rectangles .Seven {
+  background-color: rgba(53,48,241,0.47);
+}

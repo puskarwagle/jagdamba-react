@@ -1,0 +1,70 @@
+.Rectangles .pTex {
+  position: absolute;
+  text-align: center;
+  min-width: 70vw;
+  padding: 2rem 3rem 2rem 3rem;
+  background-color: #000000;
+  font-size: 1.3rem;
+  font-weight: 500;
+  font-family: 'Open Sans', sans-serif;
+  color: #ffffff;
+  transform: translateY(-700%);
+  display: none;
+  opacity: 0;
+  
+}
+@media only screen and (max-width: 600px) {
+	.Rectangles #pTexts {
+		font-size: 0.8em;
+		min-width: 50vw;
+	}
+}
+.Rectangles .grid-box:focus .pOne {
+  display: block;
+  transform: translateY(-300%);
+  transform: translateX(28%);
+  opacity: 1;
+  transition: 0.5s ease;
+}
+.Rectangles .grid-box:focus .pTwo {
+  display: block;
+  transform: translateY(-100%);
+  transform: translateX(0%);
+  opacity: 1;
+  transition: 0.5s ease;
+}
+.Rectangles .grid-box:focus .pThree {
+  display: block;
+  transform: translateY(-100%);
+  transform: translateX(-27%);
+  opacity: 1;
+  transition: 0.5s ease;
+}
+.Rectangles .grid-box:focus .pFour {
+  display: block;
+  transform: translateY(-400%);
+  transform: translateX(38%);
+  opacity: 1;
+  transition: 0.5s ease;
+}
+.Rectangles .grid-box:focus .pFive {
+  display: block;
+  transform: translateY(-100%);
+  transform: translateX(14%);
+  opacity: 1;
+  transition: 0.5s ease;
+}
+.Rectangles .grid-box:focus .pSix {
+  display: block;
+  transform: translateY(-100%);
+  transform: translateX(-12%);
+  opacity: 1;
+  transition: 0.5s ease;
+}
+.Rectangles .grid-box:focus .pSeven {
+  display: block;
+  transform: translateY(-100%);
+  transform: translateX(-42%);
+  opacity: 1;
+  transition: 0.5s ease;
+}

@@ -1,0 +1,79 @@
+.Header {
+  display: flex;
+  padding: 0.7rem 5rem 0.3rem 2rem;
+  background-color: rgba(50, 118, 186, 0.9);
+}
+.Header img {
+  width: 24vw;
+  margin-bottom: 0.5rem;
+}
+.Header nav {
+  font-size: 1.3vw;
+  color: #FFFFFF;
+  font-weight: 600;
+  margin-left: auto;
+}
+.Header nav ul {
+  display: flex;
+  gap: 1.5rem;
+  list-style: none;
+}
+.Header nav ul li ul {
+  background-color: #FFFFFF;
+  color: #000000;
+  z-index: 99;
+}
+.AboutHi {
+  opacity: 0;
+  display: none;
+}
+.AboutSh {
+	font-size: 1vw;
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+}
+.AboutHi li {
+  opacity: 0;
+  display: none;
+  position: absolute;
+}
+.AboutSh li {
+	margin: 0.5rem 0.5rem 0.5rem -1.8rem;
+  transition: all 500ms;
+}
+/* PRODUCTS PRODUCTS*/
+.ProductHi {
+  opacity: 0;
+}
+.ProductSh {
+	font-size: 1vw;
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+}
+.ProductHi li {
+  opacity: 0;
+  margin: 0.5rem 0.5rem 0.5rem -1.8rem;
+  position: absolute;
+}
+.ProductSh li {
+	margin: 0.5rem 0.5rem 0.5rem -1.8rem;
+}
+/* Expand */
+ul li ul li:nth-child(1) {
+  transition-delay: 200ms;
+}
+ul li ul li:nth-child(2) {
+  transition-delay: 400ms;
+}
+ul li ul li:nth-child(3) {
+  transition-delay: 600ms;
+}
+a {
+  color: inherit;
+  text-decoration: none;
+}
+.bg {
+  font-size: 5vw;
+}
