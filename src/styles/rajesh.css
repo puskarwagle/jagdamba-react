@@ -20,7 +20,7 @@
   grid-column: 1 / 11;
   grid-row: 1 / 4;
   display: flex;
-  gap: 8rem;
+  gap: 8vw;
   padding: 0rem 1rem;
   justify-items: center;
   align-items: center;

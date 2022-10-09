@@ -8,14 +8,20 @@ function Youtube() {
   }
 
   const opts: YouTubeProps['opts'] = {
-    height: '390',
-    width: '640',
+    
     playerVars: {
       // https://developers.google.com/youtube/player_parameters
       autoplay: 1,
     },
   };
 
-  return <YouTube videoId="4FkdklpKzWo" opts={opts} onReady={onPlayerReady} />;
+  return <YouTube 
+  				videoId="4FkdklpKzWo" 
+  				opts={opts} 
+  				onReady={onPlayerReady} 
+  				style={{
+          width: "100%",
+          height: "100%"}}
+  				/>;
 }
 export default Youtube;
