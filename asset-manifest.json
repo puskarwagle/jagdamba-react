@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/jagdamba-react/static/css/main.057f77e0.css",
-    "main.js": "/jagdamba-react/static/js/main.d89b6766.js",
+    "main.css": "/jagdamba-react/static/css/main.06a30f6e.css",
+    "main.js": "/jagdamba-react/static/js/main.8cd6c708.js",
     "static/js/787.1fc41895.chunk.js": "/jagdamba-react/static/js/787.1fc41895.chunk.js",
     "static/media/jasta-green.png": "/jagdamba-react/static/media/jasta-green.323ed4bafdd1c6fcb4bd.png",
     "static/media/keta.png": "/jagdamba-react/static/media/keta.9b3b7f86d97203139976.png",
@@ -25,12 +25,12 @@
     "static/media/7.svg": "/jagdamba-react/static/media/7.566b0796faa9f4d288948e1b3bcce196.svg",
     "static/media/4.svg": "/jagdamba-react/static/media/4.64bd12e0fb67e04e492603c5eb54dee6.svg",
     "index.html": "/jagdamba-react/index.html",
-    "main.057f77e0.css.map": "/jagdamba-react/static/css/main.057f77e0.css.map",
-    "main.d89b6766.js.map": "/jagdamba-react/static/js/main.d89b6766.js.map",
+    "main.06a30f6e.css.map": "/jagdamba-react/static/css/main.06a30f6e.css.map",
+    "main.8cd6c708.js.map": "/jagdamba-react/static/js/main.8cd6c708.js.map",
     "787.1fc41895.chunk.js.map": "/jagdamba-react/static/js/787.1fc41895.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.057f77e0.css",
-    "static/js/main.d89b6766.js"
+    "static/css/main.06a30f6e.css",
+    "static/js/main.8cd6c708.js"
   ]
 }
