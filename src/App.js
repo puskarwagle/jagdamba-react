@@ -5,7 +5,7 @@ import FrontText from './components/fronttext.js';
 import Rectangles from './components/rectangles.js';
 import FrontText2 from './components/fronttext2.js';
 import YoutubeEm from './components/youtubeEm.js';
-import Form from './components/form.js';
+import ContactForm from './components/form.js';
 import Footer from './components/footer.js';
 import End from './components/end.js';
 
@@ -18,7 +18,7 @@ function App() {
       <Rectangles/>
       <FrontText2/>
       <YoutubeEm embedId="4FkdklpKzWo" />
-      <Form/>
+      <ContactForm/>
       <Footer/>
       <End/>
     </div>
