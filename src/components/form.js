@@ -3,10 +3,6 @@ import emailjs from '@emailjs/browser';
 import { ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.min.css';
 
-import React from "react"
-
-
-
 const toastifySuccess = () => {
   toast('Form sent!', {
     position: 'bottom-right',
