@@ -1,7 +1,7 @@
 /* grid container */
 .Rajesh {
   display: grid;
-  margin: 5vw 12vw 0vw 12vw;
+  margin: 7vw 12vw 0vw 12vw;
   min-height: 32vh;
   grid-template-columns: 10% 10% 10% 10% 10% 10% 10% 10% 10% 10%;
   grid-template-rows: 10% 10% 10% 10% 10% 10% 10% 10% 10% 10%;

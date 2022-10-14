@@ -2,13 +2,13 @@ import '../styles/jasta.css';
 import {useRef} from "react";
 import useElementOnScreen from "../hooks/useElementOnScreen";
 /* Jasta Paata */
-import jastaGreen from '../images/jasta-green.png';
-import jastaBlue from '../images/jasta-dark-blue.png';
-import jastaRed from '../images/jasta-red.png';
-import jastaGrey from '../images/jasta-grey.png';
-import jastaSilver from '../images/jasta-silver.png';
-import jastaSkyblue from '../images/jasta-light-blue.png';
-import jastaYellow from '../images/jasta-yellow.png';
+import jastaGreen from '../images/jasta-green.webp';
+import jastaBlue from '../images/jasta-dark-blue.webp';
+import jastaRed from '../images/jasta-red.webp';
+import jastaGrey from '../images/jasta-grey.webp';
+import jastaSilver from '../images/jasta-silver.webp';
+import jastaSkyblue from '../images/jasta-light-blue.webp';
+import jastaYellow from '../images/jasta-yellow.webp';
 
 function Jasta() {
   const targetRef = useRef(null);

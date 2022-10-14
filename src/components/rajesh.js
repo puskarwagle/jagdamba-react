@@ -1,10 +1,10 @@
 import '../styles/rajesh.css';
 import Jasta from './jasta.js';
-import keta from '../images/keta.png';
-import keti from '../images/keti.png';
-import gyalva from '../images/jagdamba-gyalva.png';
-import superShine from '../images/jagdamba-super-shine.png';
-import KoSaath from '../images/7-ko-sath.png';
+import keta from '../images/keta.webp';
+import keti from '../images/keti.webp';
+import gyalva from '../images/jagdamba-gyalva.webp';
+import superShine from '../images/jagdamba-super-shine.webp';
+import KoSaath from '../images/7-ko-sath.webp';
 
 import {useRef} from "react";
 import useElementOnScreen from "../hooks/useElementOnScreen";
