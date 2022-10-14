@@ -1,0 +1,30 @@
+.Rectangles .grid-box .pTex {
+  position: absolute;
+  text-align: center;
+  min-width: 70vw;
+  margin-left: auto;
+  padding: 2rem 3rem 2rem 3rem;
+  background-color: #000000;
+  font-size: 1.7vw;
+  font-weight: 500;
+  font-family: 'Open Sans', sans-serif;
+  color: #ffffff;
+  transform: translateY(-100%);
+  opacity: 0;
+  
+}
+.Rectangles .grid-box:focus .pTex {
+	position: absolute;
+  display: block;
+  max-width:70vw;
+  left: 10vw;
+  right: 15vw;
+  transform: translateY(30%);
+  opacity: 1;
+  transition: 1s ease;
+}
+@media only screen and (max-width: 600px) {
+	.Rectangles .grid-box:focus .pTex {
+	font-size: 2.7vw;
+	}
+}

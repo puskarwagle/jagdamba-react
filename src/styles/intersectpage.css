@@ -1,0 +1,9 @@
+.InVisible {
+  transform: translateY(100%);
+  opacity: 0.5;
+  }
+.FrontText2 {
+  transform: translateY(1%);
+  opacity: 1;
+  transition: 500ms ease;
+}

@@ -1,0 +1,33 @@
+.InVisible2 {
+  transform: translateY(-100%);
+  opacity: 0.0;
+  text-align: center;
+  postion: absolute;
+  border: 5px soild red;
+}
+.InVisible2 p {
+	font-size: 1.8rem;
+	font-weight: 700;
+	color: rgb(51, 51, 51);
+}
+
+.FrontText2 {
+	transform: translateY(0%);
+  opacity: 1;
+  transition: 500ms ease;
+	text-align: center;
+	padding: 1rem 7vw 1rem 7vw;
+	border: 5px soild red;
+}
+.FrontText2 p {
+	font-size: 1.8rem;
+	font-weight: 700;
+	color: rgb(51, 51, 51);
+}
+
+@media only screen and (max-width: 600px) {
+	.FrontText2 p {
+		font-size: 1.2rem;
+	}
+}
+

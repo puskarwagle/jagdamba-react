@@ -1,0 +1,19 @@
+* {
+	box-sizing: border-box;
+	font-family: 'Open Sans', sans-serif;
+}
+html, body {
+	margin: 0 0 0 0;
+  width: 100%;
+  overflow-x: hidden;
+}
+
+.App {
+	
+}
+.lift {
+	transform: translateY(100%);
+}
+.down{
+	transform: translateY(0%);
+}

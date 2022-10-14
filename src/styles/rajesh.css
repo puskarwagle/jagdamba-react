@@ -1,0 +1,108 @@
+/* grid container */
+.Rajesh {
+  display: grid;
+  margin: 5vw 12vw 0vw 12vw;
+  min-height: 32vh;
+  grid-template-columns: 10% 10% 10% 10% 10% 10% 10% 10% 10% 10%;
+  grid-template-rows: 10% 10% 10% 10% 10% 10% 10% 10% 10% 10%;
+  background-color: rbg(204,204,204);
+  pointer-events: auto;
+  overflow-y: hidden;
+  overflow-x: hidden;
+}
+.grid-item {
+  outline: 0px solid green;
+}
+.Rajesh .grid-item img {
+  max-width:100%;
+  max-height:100%;
+}
+.grid-item-1 {
+  /* Sunshine ra Gyalva */
+  grid-column: 1 / 11;
+  grid-row: 1 / 4;
+  display: flex;
+  gap: 8vw;
+  padding: 0rem 1rem;
+  justify-items: center;
+  align-items: center;
+}
+.SuperHi {
+  transform: translateX(-100%);
+  opacity: 0;
+  width: 45%;
+}
+.SuperSh {
+  transition: ease 500ms;
+  margin-right: auto;
+  outline: 0px dotted green;
+  width: 45%;
+  }
+#viline {
+  border-left: 2px solid rgb(157, 157, 157);
+  height: 80%;
+}
+.GyalvaHi {
+  transform: translateX(100%);
+  opacity: 0;
+  width: 40%;
+}
+.GyalvaSh {
+  transition: ease 500ms;
+  width: 40%;
+  margin-left: auto;
+}
+#hrgap {
+  border: 0px solid rgb(157, 157, 157);
+  height: 2.5rem;
+}
+.grid-item-2 {
+  /* Rajesh hamal */
+  display: flex;
+  grid-column: 1 / 4;
+  grid-row: 4 / 11;
+  z-index: 9;
+  margin-top: auto;
+  height: 75%;
+}
+.RajeshHi {
+  transform: translateX(-100%);
+  opacity: 0;
+}
+.RajeshSh {
+  transition: ease 1000ms;
+}
+.grid-item-3 {
+  /* Madhu */
+  display: flex;
+  grid-column: 9 / 11;
+  grid-row: 4 / 11;
+  z-index: 5;
+  margin-top: auto;
+  height: 75%;
+}
+.MadhuHi {
+  transform: translateX(100%);
+  opacity: 0;
+}
+.MadhuSh {
+  transition: ease 1000ms;
+}
+.grid-item-4 {
+  /* Jasta */
+  grid-column: 5 / 8;
+  grid-row: 4 / 11;
+  z-index: 1;
+}
+.grid-item-5 {     /* Ko Saath */
+  display: flex;
+  grid-column: 2 / 10;
+  grid-row: 7 / 11;
+  z-index: 2;
+}
+#animate {
+  position: absolute;
+  margin-top: 100px;
+  font-size: 1rem;
+  z-index: 9999;
+}

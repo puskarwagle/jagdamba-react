@@ -1,0 +1,46 @@
+.Footer {
+  position: relative;
+  height: 100%;
+  font-weight: 10;
+  display: grid;
+  grid-template-columns: 33.33% 33.33% 33.33%;
+  grid-template-rows: 33.33% 33.33% 33.33%;
+  padding: 2rem 2rem;
+  background-color: rgb(248, 248, 248);
+}
+@media only screen and (max-width: 600px) {
+	.Footer {
+	display: flex; 
+	flex-direction: column;
+	}
+}
+.foot-item {
+  display: flex;
+  flex-direction: column;
+  padding: 0rem 1rem;
+  align-items: left;
+}
+.foot-item p {
+  font-size: 1.5rem;
+  color: rgb(50, 118, 186);
+  font-weight: 530;
+}
+.foot-item a {
+  margin-bottom: 0.5rem;
+  color: rgb(241, 90, 35);
+}
+.foot-item-1 {
+  /* About us */
+  grid-column: 1 / 2;
+  grid-row: 1 / 4;
+}
+.foot-item-2 {
+  /* Products */
+  grid-column: 2 / 3;
+  grid-row: 1 / 4;
+}
+.foot-item-3 {
+  /* Contact Us */
+  grid-column: 3 / 4;
+  grid-row: 1 / 4;
+}
