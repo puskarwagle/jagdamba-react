@@ -47,8 +47,8 @@ return (
   	<FormHead />
     <form id="contact" action="" method="post" onSubmit={handleSubmit(onSubmit)} noValidate>
     	<div className="grid-form grid-form1">
-      	<label for="name">Full Name</label>
-      	<input name="name" type="text" required 
+      	<label htmlFor="name">Full Name</label>
+      	<input id="name" name="name" type="text" required 
       	{...register('name', {
                         required: { value: true, message: 'Please enter your name' },
                         
@@ -61,7 +61,7 @@ return (
       </div>
       
       <div className="grid-form grid-form2">
-      	<label for="number">Phone</label>
+      	<label htmlFor="number">Phone</label>
       	<input id="number" type="tel" required
       	{...register('number', {
                         required: { value: true, message: 'Please enter a number' },
@@ -78,8 +78,8 @@ return (
       </div>
       
       <div className="grid-form grid-form3">
-      	<label for="email">Email</label>
-      	<input name="email" type="email" required 
+      	<label htmlFor="email">Email</label>
+      	<input id="email" name="email" type="email" required 
       	{...register('email', {
                         required: true,
                         pattern: /^[a-zA-Z0-9.!#$%&’*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:\.[a-zA-Z0-9-]+)*$/
@@ -88,8 +88,8 @@ return (
       </div>
       
       <div className="grid-form grid-form4">
-      	<label for="location">Location</label>
-      	<input name="location" type="text" required 
+      	<label htmlFor="location">Location</label>
+      	<input id="location" name="location" type="text" required 
       	{...register('location', {
                         required: { value: true, message: 'Please enter a location' },
                         maxLength: {
@@ -101,8 +101,8 @@ return (
       </div>
       
       <div className="grid-form grid-form5">
-      	<label for="message">Message</label>
-      	<textarea name="message" required
+      	<label htmlFor="message">Message</label>
+      	<textarea id="message" name="message" required
       	{...register('message', {
                         required: true
                       })}></textarea>

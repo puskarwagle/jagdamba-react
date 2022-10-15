@@ -3,7 +3,7 @@ import '../styles/footer.css';
 function Footer() {
   return (
     <div className="Footer">
-      <div class="foot-item foot-item-1">
+      <div className="foot-item foot-item-1">
         <p className="foot-head">About Us</p>
         <a href="https://www.w3schools.com">Jagdamba Steels</a>
         <a href="https://www.w3schools.com">About Shanker</a>
@@ -12,7 +12,7 @@ function Footer() {
         <a href="https://www.w3schools.com">Certification & Awards</a>
       </div>
       
-      <div class="foot-item foot-item-2">
+      <div className="foot-item foot-item-2">
         <p className="foot-head">Products</p>
         <a href="https://www.w3schools.com">Locate Our Dealers</a>
         <a href="https://www.w3schools.com">Reinforcement Rebars</a>
@@ -22,7 +22,7 @@ function Footer() {
         <a href="https://www.w3schools.com">Home Building Tips</a>
       </div>
       
-      <div class="foot-item foot-item-3">
+      <div className="foot-item foot-item-3">
         <p className="foot-head">News & Media</p>
         <a href="https://www.w3schools.com">Stories</a>
         <a href="https://www.w3schools.com">News</a>
