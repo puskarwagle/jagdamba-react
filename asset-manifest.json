@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/jagdamba-react/static/css/main.31133497.css",
-    "main.js": "/jagdamba-react/static/js/main.fe37f46a.js",
+    "main.js": "/jagdamba-react/static/js/main.abff4f2c.js",
     "static/js/787.1fc41895.chunk.js": "/jagdamba-react/static/js/787.1fc41895.chunk.js",
     "static/media/Helvetica.woff": "/jagdamba-react/static/media/Helvetica.967c07100e27e9f1d9c6.woff",
     "static/media/jagdamba-super-shine.webp": "/jagdamba-react/static/media/jagdamba-super-shine.95f9d33b4773032195a8.webp",
@@ -24,14 +24,14 @@
     "static/media/5.svg": "/jagdamba-react/static/media/5.ea92eda116d34da762c6cf4eb21a6ee6.svg",
     "static/media/2.svg": "/jagdamba-react/static/media/2.76d7215c4c8c5aab1b65d147e67ccc98.svg",
     "static/media/7.svg": "/jagdamba-react/static/media/7.566b0796faa9f4d288948e1b3bcce196.svg",
-    "static/media/4.svg": "/jagdamba-react/static/media/4.64bd12e0fb67e04e492603c5eb54dee6.svg",
     "index.html": "/jagdamba-react/index.html",
+    "static/media/4.svg": "/jagdamba-react/static/media/4.64bd12e0fb67e04e492603c5eb54dee6.svg",
     "main.31133497.css.map": "/jagdamba-react/static/css/main.31133497.css.map",
-    "main.fe37f46a.js.map": "/jagdamba-react/static/js/main.fe37f46a.js.map",
+    "main.abff4f2c.js.map": "/jagdamba-react/static/js/main.abff4f2c.js.map",
     "787.1fc41895.chunk.js.map": "/jagdamba-react/static/js/787.1fc41895.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.31133497.css",
-    "static/js/main.fe37f46a.js"
+    "static/js/main.abff4f2c.js"
   ]
 }
